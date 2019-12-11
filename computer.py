@@ -84,7 +84,7 @@ class Computer:
                 self.__ip += 2
 
                 if untilOutput:
-                    return self.__output
+                    return self
             elif opcode == 5:
                 if p(0) != 0:
                     if self.debug:
